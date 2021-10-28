@@ -15,6 +15,11 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+
+    <!-- Custom styles for this template -->
+    <link href="footers.css" rel="stylesheet">
+
+
 </head>
 <body>
 	<!-------------------- HEADER ------------------------>
@@ -64,21 +69,16 @@
 	</div>	
 </div>
 
-    <footer>
-      <div class="footer">
-  <div class="footer-logo">Stylon.com</div>
-
-      <div class="footer-list">
-        <h4>Alamat</h4>
-        	<p><?php echo $a->admin_addres ?></p>
-          <h4>Email</h4>
-          <p><?php echo $a->admin_email ?></p>
-          <h4>Nomor HP</h4>
-          <p><?php echo $a->admin_telp ?></p>
-          <small class="foot">Copyright &copy; 2021 - Stylon.com, By Nur Anisah</small>
-        </ul>
-      </div>
-          </div>
-</footer>
-</body>
+    <!-------------------footer -------------------->
+    <div class="footerdetail">
+        <footer>
+            <div class="container">
+                <small>Copyright &copy; 2021 - Stylon.com, By Nur Anisah</small>
+            </div>
+        </footer>
+        <script>
+                CKEDITOR.replace( 'deskripsi' );
+        </script>
+    </div>
+	</body>
 </html>

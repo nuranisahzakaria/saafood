@@ -1,11 +1,95 @@
-*{
-	padding:0;
-	margin:0;
-  font-family: 'Quicksand', sans-serif;
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
 }
-body{
-	background-color: #f8f8f8; 
+
+body {
+	background-color: #f8f8f8;
 }
+
+
+/* header */
+header {
+	background-color: #26d0c9;
+	color: #fff;
+	height: 60px;
+	padding: 20px;
+}
+
+a {
+	color: inherit;
+}
+
+header h1 {
+	float: left;
+	margin-right: 10px;
+	margin-left: 0px;
+	font-size: 40px;
+}
+
+header li {
+	float: right;
+	list-style: none;
+}
+
+header ul li a {
+	padding: 20px 15px;
+	display: inline-block;
+}
+.header1 {
+	position: relative;
+    z-index: 1;
+}
+.busanas ul {
+	list-style-type: none;
+    overflow: hidden;
+}
+
+.busanas ul li {
+    float: left;
+    margin-left: 50px;
+}
+
+.busanas ul li a {
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 0;
+    text-decoration: none;
+    margin-top: 25px;
+	color: #342626;
+}
+
+.busanas ul li a:hover {
+    text-decoration: underline;
+    color: #342626;
+    cursor: pointer;
+}
+
+.ikon {
+	padding: 40px 0px;
+	float: right;
+}
+
+.logo {
+	margin: 0 120px 0 30px;
+}
+.busanas {
+	font-family: Rasa;
+	font-style: normal;
+	font-weight: normal;
+	color: #342626;
+	float: left;
+	width: 100%;
+	height: 90px;
+	display: flex;
+	line-height: 80px;
+	position: fixed;
+	top: 0;
+	background-color: #ffffff;
+}
+
+
 a{
 	color: inherit;
 	text-decoration: none
@@ -40,29 +124,11 @@ a{
 	color: #fff;
 	cursor: pointer;
 }
-header{
-	background-color: #26d0c9;
-	color: #fff;
-	height:60px;
-  padding: 20px;
-}
+
 a{
 	color: inherit;
 }
-header h1{
-	float: left;
-	margin-right: 10px;
-	margin-left: 0px;
-	font-size: 40px;
-}
-header li{
-	float: right;
-	list-style: none;
-}
-header ul li a{
-	padding: 20px 15px;
-	display: inline-block;
-}
+
 .container{
 	width: 80%;
 	margin: 0 auto;
@@ -73,6 +139,7 @@ display: block;
 clear: both;
 }
 .section{
+	margin-top: 90px;
 	padding: 25px 0;
 }
 .box{
@@ -177,6 +244,10 @@ padding: 10px;
 	margin-bottom: 10px;
 	  opacity: 50%;
 }
+.container small{
+	padding-bottom: 100px;
+	color: #c50f25;
+}
 .coldua{
 	width: 50%;
 	min-height: 200px;
@@ -212,7 +283,7 @@ span{
 		width: 90%;
 	}
 	.col-5{
-	 width: 50%;
+	width: 50%;
 	margin-bottom: 15px;
 	float: right;
 	margin-right: 65px;

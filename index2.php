@@ -53,18 +53,25 @@
 		<div class="busanas">
             <ul>
                 <li><a href="#">BUSANA 
-                <!-- <?php $kategori = mysqli_query($conn, "SELECT * FROM db_category ORDER BY category_id DESC 
-				");
-			if(mysqli_num_rows($kategori) > 0){
-					while ($k = mysqli_fetch_array($kategori)) {
-							# code...
-                ?>
-					<a href="produk.php?kat=7">
-						<img src="img/produk1610768789.jpg" width="50px" style="margin-bottom: 5px">
-						<p> <?php echo $k['category_name'] ?></p>
-					</div>
+                <?php
+                    $sql = mysql_query("SELECT * FROM db_category ORDER BY category_name ASC");
+                    if(mysql_num_rows($sql) !=0){
+                        echo '<ul>';
+                        while($row = mysql_fetch_assoc($sql)){
+                            $kat_id = $row['category_id'];
+                            $sql2 = mysql_query("SELECT * FROM dp_product WHERE category_id='$kat_id'");
+                
+                            echo '<li>'.$row['category_name'];
+                                echo '<ul>';
+                                    while($row2 = mysql_fetch_assoc($sql2)){
+                                        echo '<li>'.$row2['product_name'].'</li>';
+                                    }
+                    }
+	            ?>
+                
+ 
 				</a>
-                </a></li> -->
+                </a></li>
                 <li><a href="#">HIJAB</a></li>
                 <li><a href="#">AKSESORIS</a></li>
 				<li><img src="img/ikon.png" width="350px" top="0" class="logo"></li>
