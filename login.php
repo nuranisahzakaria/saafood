@@ -11,7 +11,7 @@
 </head>
 <body id="bg-login">
 	<div class="box-login">
-		<h2>login</h2>
+		<h2>login admin</h2>
 		<form action="" method="POST">
 			<input type="text" name="user" placeholder="Username" class="input-control">
 			<input type="password" name="pass" placeholder="Password" class="input-control">

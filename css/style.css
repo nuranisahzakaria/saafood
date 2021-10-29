@@ -16,6 +16,10 @@ a{
 	justify-content: center;
 	align-items: center;
 }
+h3 {
+	padding-top: 0;
+	margin-top: 0;
+}
 .box-login{
 	width: 300px;
 	min-width: 200px;
@@ -44,7 +48,7 @@ header{
 	background-color: #26d0c9;
 	color: #fff;
 	height:60px;
-  padding: 20px;
+	padding: 20px;
 }
 a{
 	color: inherit;
@@ -64,6 +68,7 @@ header ul li a{
 	display: inline-block;
 }
 .container{
+	padding-top: opx;
 	width: 80%;
 	margin: 0 auto;
 }
@@ -77,7 +82,6 @@ clear: both;
 }
 .box{
 	background-color: #fff;
-	border: 1px solid #ccc;
 	padding: 15px;
 	box-sizing: border-box;
 	margin: 10px 0 25px 0;
@@ -112,7 +116,7 @@ padding: 10px;
 }
 .search input[type=submit]{
 	padding: 9px 16px;
-	background-color:  #054756 ;
+	background-color: #342626;
 	color: #fff;
 	border: none;
 	cursor: pointer;
@@ -127,12 +131,12 @@ padding: 10px;
 	margin-left: 70px;
 }
 .colempat:hover{
-	box-shadow: 0 0 3px #999;
+	filter: brightness(110%);
 }
 .colempat {
 	width: 25%;
 	height: 320px;
-	border: 1px solid #ccc;
+	border: none;
 	float: left;
 	box-sizing: border-box;
 	border: none;
@@ -184,10 +188,10 @@ padding: 10px;
 	box-sizing: border-box;
 	float: left;
 }
-
-.coldua p{
-	margin: 15px 0;
-	font-size: 15px;
+.coldua p {
+	margin: 5px 0;
+	font-size: 5px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .coldua h3{
 	font-size: 25px;
@@ -195,16 +199,6 @@ padding: 10px;
 .coldua h4{
 		color: #66cc;
 		font-size: 18px;
-}
-span{
-	font-size: 20px;
-}
-.pesan{
-	padding: 9px 30px;
-	background-color: #c50f25;
-	color: #fff;
-	font-weight: bold;
-	box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px){

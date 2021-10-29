@@ -15,22 +15,22 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
 </head>
-<body>
-	
-<!-------------------- HEADER ------------------------>
+<body><!-- header-->
 	<header>
-		<div class="busanas">
-            <ul>
-                <li><a href="">BUSANA</a></li>
-                <li><a href="#">HIJAB</a></li>
-                <li><a href="#">AKSESORIS</a></li>
-				<li><img src="img/ikon.png" width="350px" top="0" class="logo"></li>
-				<li><a href="#"><img src="img/ikon-user.png" width="20px" class="ikon"></a></li>
-                <li><a href="#"><img src="img/ikon-login.png" width="20px" class="ikon"></a></li>
-                <li><a href="#"><img src="img/ikon-search.png" width="20px" class="ikon"></a></li>
-            </ul>
-        </div>
-    </header>
+		<div class="container">
+		<h1><a href="dashboard.php">Stylon.com</a></h1>
+		<ul>
+			<div class="container">
+			
+			<li><a href="keluar.php">Keluar</a></li>
+			<li><a href="data-produk.php">Data Produk</a></li>
+			<li><a href="data-kategori.php">Data Kategori</a></li>
+			<li><a href="profil.php">Profil</a></li>
+			<li><a href="dashboard.php">Dashboard</a></li>
+			</div>
+		</ul>
+	</div>
+	</header>
 <!-- content-->
 		<div class="section">
 			<div class="container">
