@@ -22,15 +22,15 @@
 
 </head>
 <body>
-	<!-------------------- HEADER ------------------------>
+<!-------------------- HEADER ------------------------>
 	<header>
 		<div class="busanas">
             <ul>
                 <li><a href="busana.php">BUSANA</a></li>
                 <li><a href="hijab.php">HIJAB</a></li>
                 <li><a href="aksesoris.php">AKSESORIS</a></li>
-				<li><a href="index.php"><img src="img/ikon.png" width="350px" top="0" class="logo"></a></li>
-                <li><a href=""><img src="img/ikon-login.png" width="20px" class="ikon"></a></li>
+				<li><a href="index.php"><img src="img/ikon.png" width="350px" top="0" class="logo"></li>
+                <li><a href="login-user.php"><img src="img/ikon-user.png" width="20px" class="ikon"></a></li>
                 <li><a href="search.php"><img src="img/ikon-search.png" width="20px" class="ikon"></a></li>
             </ul>
         </div>
@@ -51,7 +51,7 @@
 				<p><?php echo $p->product_description; ?></p>
 				<div class="pemesanan">
 					<a href="https://api.whatsapp.com/send?phone=<?php echo $a->admin_telp ?>&text-Halo admin, saya mau pesan dengan produk ini min." target="_blank"><span class="order-1">PESAN</span></a>
-					<a href="#"><span class="order-2">TAMBAHKAN KE WISHLIST</span></a>
+
 				</div>
 			</div>
 		</div>

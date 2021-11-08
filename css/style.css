@@ -107,7 +107,6 @@ footer{
 .search{
 padding: 15px 0;
 background-color: #fff;
-border: 1px solid #ccc;
 text-align: center;
 }
 .search input[type=text]{
@@ -200,6 +199,28 @@ padding: 10px;
 		color: #66cc;
 		font-size: 18px;
 }
+.buton-tambah{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 15px;
+	border: solid 1px black;
+	color: #ffffff;
+	background-color: black;
+	cursor: pointer;
+	height: 30px;
+	width: 189px;
+	text-align: center;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+.buton-tambah:hover{
+	color: black;
+	background-color: #ffffff;
+}
+.judul1{
+	font-size: 29px;
+	text-align: center;
+}
+
 
 @media screen and (max-width: 768px){
 	.container{

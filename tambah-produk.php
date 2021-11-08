@@ -53,9 +53,9 @@
 						<input type="file" name="gambar" class="input-control" required>
 						<textarea class="input-control" name="deskripsi" placeholder="Deskripsi"></textarea><br>
 						<select class="input-control" name="status">
-							<option value="">--Pilih--</option>
-							<option value="1">Aktif</option>
-							<option value="0">Tidak Aktif</option>
+							<option value="">Status Produk</option>
+							<option value="1">Tersedia</option>
+							<option value="0">Tidak Tersedia</option>
 						</select>
 						<input type="submit" name="submit" value="Tambah" class="btn">
 					</form>

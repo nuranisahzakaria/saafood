@@ -56,7 +56,7 @@
                 <li><a href="hijab.php">HIJAB</a></li>
                 <li><a href="aksesoris.php">AKSESORIS</a></li>
 				<li><a href="index.php"><img src="img/ikon.png" width="350px" top="0" class="logo"></li>
-                <li><a href="login.php"><img src="img/ikon-login.png" width="20px" class="ikon"></a></li>
+                <li><a href="login-user.php"><img src="img/ikon-user.png" width="20px" class="ikon"></a></li>
                 <li><a href="search.php"><img src="img/ikon-search.png" width="20px" class="ikon"></a></li>
             </ul>
         </div>
@@ -65,11 +65,11 @@
         <!----------------------------IMAGE SLIDER ------------------------------>
         <div id="slider">
             <figure>
-                <img src="img/image-slider2.jpeg" style="width: 20%; height: 420px;">
-                <img src="img/image-slider3.jpeg" style="width: 20%; height: 420px;">
-                <img src="img/image-slider4.jpeg" style="width: 20%; height: 420px;">
-                <img src="img/image-slider5.jpg" style="width: 20%; height: 420px;">
-                <img src="img/image-slider6.jpg" style="width: 20%; height: 420px;">
+                <img src="img/image-slider2.jpeg" style="width: 20%; height: 500px;">
+                <img src="img/image-slider3.jpeg" style="width: 20%; height: 500px;">
+                <img src="img/image-slider4.jpeg" style="width: 20%; height: 500px;">
+                <img src="img/image-slider5.jpg" style="width: 20%; height: 500px;">
+                <img src="img/image-slider6.jpg" style="width: 20%; height: 500px;">
             </figure>
         </div>
 
@@ -127,33 +127,33 @@
                 <div class="col-2">
                     <h5>LAYANAN</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cara Pengembalian</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Produk Indeks</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Konfirmasi Transfer</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hubungi Kami</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Status Order</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Cara Pengembalian</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Produk Indeks</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Konfirmasi Transfer</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Hubungi Kami</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Status Order</a></li>
                     </ul>
                 </div>
 
                 <div class="col-2">
                     <h5>BANTUAN</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Panduan Pembayaran</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">STYLON Point</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cash & Delivery</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Size Guide</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Panduan Pembayaran</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">STYLON Point</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Cash & Delivery</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Size Guide</a></li>
                     </ul>
                 </div>
 
                 <div class="col-2">
                     <h5>TENTANG KAMI</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tentang Stylon.com</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pers/media</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kebijakan</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Syarat & Ketentuan</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Indeks Produk</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Tentang Stylon.com</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Pers/media</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Kebijakan</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Syarat & Ketentuan</a></li>
+                        <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Indeks Produk</a></li>
                     </ul>
                 </div>
 

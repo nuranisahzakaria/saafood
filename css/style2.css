@@ -142,7 +142,6 @@ footer{
 .search{
 padding: 15px 0;
 background-color: #fff;
-border: 1px solid #ccc;
 text-align: center;
 }
 .search input[type=text]{
@@ -259,17 +258,9 @@ padding: 10px;
 	color: #ffffff;
 }
 .pemesanan .order-1:hover{
-	text-decoration: underline;
+	background-color: #ffffff;
+	color: #0a0a0a;
 }
-.pemesanan .order-2:hover{
-	text-decoration: underline;
-}
-.pemesanan .order-2 {
-	border: solid 1px #1a1313;
-	box-sizing: border-box;
-	padding: 10px;
-	background-color: #0a0a0a;
-	color: #ffffff;
 }
 .coldua h3{
 	font-size: 25px;

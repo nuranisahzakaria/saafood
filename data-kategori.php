@@ -34,10 +34,12 @@
 <!-- content-->
 		<div class="section">
 			<div class="container">
-				<h3>Data Kategori</h3>
+				<h3 class="judul1">Data Kategori</h3>
 				<div class="box">
 					<p>
-						<a href="tambah-kategori.php">Tambah Kategori</a>
+						<div class="buton-tambah">
+							<a href="tambah-kategori.php">Tambah Kategori</a>
+						</div>
 					</p>
 					<table border="1" cellspacing="0" class="table">
 						<thead>
