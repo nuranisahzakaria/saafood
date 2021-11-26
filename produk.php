@@ -50,15 +50,14 @@ $a = mysqli_fetch_object($kontak);
 </head>
 
 <body>
-    <!-------------------- HEADER ------------------------>
-    <header>
+   <!-------------------- HEADER ------------------------>
+   <header>
         <div class="busanas">
             <ul>
                 <li><a href="busana.php">BUSANA</a></li>
                 <li><a href="hijab.php">HIJAB</a></li>
                 <li><a href="aksesoris.php">AKSESORIS</a></li>
                 <li><a href="index.php"><img src="img/ikon.png" width="350px" top="0" class="logo"></li>
-                <li><a href="login-user.php"><img src="img/ikon-user.png" width="20px" class="ikon"></a></li>
                 <li><a href="search.php"><img src="img/ikon-search.png" width="20px" class="ikon"></a></li>
             </ul>
         </div>
@@ -188,4 +187,4 @@ $a = mysqli_fetch_object($kontak);
     </div>
 </body>
 
-</html>
+</html>DoubleLinkedList
