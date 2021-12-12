@@ -13,7 +13,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width-device-width, initial-scale-1">
-	<title>Stylon.com</title>
+	<title>Pesan-Antar Makanan | Safood</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
@@ -21,11 +21,11 @@
 <body><!-- header-->
 	<header>
 		<div class="container">
-		<h1><a href="dashboard.php">Stylon.com</a></h1>
+		<h1><a href="dashboard.php">Safood</a></h1>
 		<ul>
 			<div class="container">
 			
-			<li><a href="keluar.php">Keluar</a></li>
+			<li><a href="keluar.php" onClick="return confirm('Keluar dari Halaman Admin')">Keluar</a></li>
 			<li><a href="data-produk.php">Data Produk</a></li>
 			<li><a href="data-kategori.php">Data Kategori</a></li>
 			<li><a href="profil.php">Profil</a></li>

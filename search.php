@@ -9,7 +9,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width-device-width, initial-scale-1">
-	<title>Muslimah Style | Stylon.com</title>
+	<title>Pesan-Antar Makanan | Safood</title>
 	<link rel="stylesheet" type="text/css" href="css/style2.css">
 	<link rel="stylesheet" type="text/css" href="css/image-slider.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -56,16 +56,13 @@
 <header>
         <div class="busanas">
             <ul>
-                <li><a href="busana.php">BUSANA</a></li>
-                <li><a href="hijab.php">HIJAB</a></li>
-                <li><a href="aksesoris.php">AKSESORIS</a></li>
-                <li><a href="index.php"><img src="img/ikon.png" width="350px" top="0" class="logo"></li>
-                <li><a href="search.php"><img src="img/ikon-search.png" width="20px" class="ikon"></a></li>
+                <li><a href="index.php"><img src="img/ikon.png" width="230px" top="0" class="logo"></li>
+                <li class="logo-kanan"><a href="#"><img src="img/ig.jpg" width="21px" class="ikon"></a></li>
+                <li><a href="#"><img src="img/fb.png" width="21px" class="ikon"></a></li>
             </ul>
         </div>
     </header>
-
-
+	
 <!--search-->
 <div class="cari">
 	<div class="search">
@@ -73,7 +70,7 @@
 			<form action="produk.php">
 				<input type="text" name="search" placeholder="Cari Produk">
 				<input type="hidden" name="kat" value="<?php echo $_GET['kat'] ?>">
-				<input type="submit" name="cari" value="Cari">
+				<input type="submit" name="cari" value="Cari" class="tambahs">
 			</form>
 		</div>
 </div>

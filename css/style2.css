@@ -13,6 +13,7 @@ body {
 header {
 	position: relative;
     z-index: 1;
+	background-color: rgb(236, 226, 226);
 }
 .busanas ul {
 	list-style-type: none;
@@ -38,14 +39,100 @@ header {
     color: #342626;
     cursor: pointer;
 }
-
-.ikon {
-	padding: 40px 0px;
-	float: right;
+.logo-kanan{
+	padding-left: 700px;
 }
 
-.logo {
-	margin: 0 120px 0 30px;
+header .busanas .ikon {
+	padding: 0 0;
+
+}
+h7{
+	font-family: 'Ribeye', cursive, arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 80px;
+	color: #6E3CBC;
+}
+.linkatas{
+	padding-top: 50px;
+}
+.kotaka{
+	left: 450px;
+	position: absolute;
+	width: 170px;
+	height: 40px;
+	color: rgb(254, 253, 255);
+	background: #6E3CBC;
+	mix-blend-mode: normal;
+	border-radius: 10px;
+	box-sizing: content-box;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+.kotaka:hover{
+	width: 180px;
+	height: 42px;
+}
+.kotakb:hover{
+	width: 180px;
+	height: 42px;
+}
+.kotakb{
+	right: 450px;
+	position: absolute;
+	width: 170px;
+	height: 40px;
+	color: rgb(254, 253, 255);
+	background: #575C64;
+	mix-blend-mode: normal;
+	border-radius: 10px;
+	box-sizing: content-box;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+.border1 li{
+	list-style: none;
+	width: 150px;
+	height: 100px;
+	color: blueviolet;
+}
+.section1{
+	padding-top: 100px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.section1 p{
+	color: rgb(22, 21, 21);
+	padding: 0;
+	margin: 0;
+}
+
+.link-resto{
+	margin-top: 70px;
+	margin-left: 80px;
+	margin-right: 80px;
+	background-color: #d8d3e0;
+	height: 45;
+	font-size: 21px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	position: relative;
+	color: #ffffff;
+	text-decoration: none;
+}
+.link-resto h8{
+	margin-left: 20px;
+}
+.detailatas{
+	margin-top: 80px;
+}
+.logo2 {
+	position: absolute;
+	left: 0px;
 }
 .busanas {
 	font-family: Rasa;
@@ -61,7 +148,9 @@ header {
 	top: 0;
 	background-color: #ffffff;
 }
-
+.tambahs{
+	background-color: #6E3CBC;
+}
 
 a{
 	color: inherit;
@@ -261,7 +350,7 @@ padding: 10px;
 	background-color: #ffffff;
 	color: #0a0a0a;
 }
-}
+
 .coldua h3{
 	font-size: 25px;
 }
