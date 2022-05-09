@@ -46,6 +46,13 @@
         h3{
             margin-top: 30px;
         }
+        h11{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        h7{
+            background-color: rgb(236, 226, 226);
+        }
     </style>
 
 
@@ -67,12 +74,19 @@
     </header>
 
     <div class="main">
-        <h3>Wisata Kuliner Favorit di Aceh</h3>
+        <h7>Tentang Safood</h7>
+        <br><br>
+        <h11>Wisata Kuliner Favorit di Aceh</h11>
+        <br><br>
         <p>
-        Kulineran adalah website yang memberikan jasa pesan antar makanan di Yogyakarta dan sekitarnya secara online. Kamu bisa memilih resto atau cafe yang bisa mengantarkan pesananan di area sekitar kamu.
+        Safood adalah website yang memberikan jasa pesan antar makanan di Aceh dan sekitarnya secara online. Kamu bisa memilih resto atau cafe yang bisa mengantarkan pesananan di area sekitar kamu.
         Jadi, sekarang kamu tidak perlu bersusah payah beranjak dari tempatmu untuk membeli makanan. Masukkan areamu, pilih resto atau cafe yang ada, lalu pesan menu yang kamu suka.
         Selanjutnya serahkan pengantaran makanan ke tempatmu melalui jasa Kulineran.
         Membeli makan sudah bukan menjadi hal yang ribet kan?
+        </p>
+        <br>
+        <p>Safood yang berpusat di Kota Lhokseumawe akan memberikan penawaran spesial khususnya bagi kamu yang berdosisili di area Lhokseumawe 
+            dan sekitarnya.
         </p>
     </div>
 
@@ -103,7 +117,7 @@
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Cara Pengembalian</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Produk Indeks</a></li>
-                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Konfirmasi Transfer</a></li>
+                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Panduan COD</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Hubungi Kami</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Status Order</a></li>
                         </ul>
@@ -113,7 +127,7 @@
                         <h5>BANTUAN</h5>
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Panduan Pembayaran</a></li>
-                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">STYLON Point</a></li>
+                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">SAFOOD Point</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Cash & Delivery</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">FAQs</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Size Guide</a></li>
@@ -123,7 +137,7 @@
                     <div class="col-2">
                         <h5>TENTANG KAMI</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Tentang Stylon.com</a></li>
+                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Tentang Safood.com</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Pers/media</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Kebijakan</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Syarat & Ketentuan</a></li>
@@ -133,7 +147,7 @@
 
                     <div class="col-4 offset-1">
                         <form>
-                            <h5>Dapatkan berita fashion dan peluncuran brand terbaru hanya dengan berlangganan newsletter kami.</h5>
+                            <h5>Dapatkan harga spesial dan menu terbaru hanya dengan berlangganan newsletter kami.</h5>
                             <div class="d-flex w-100 gap-2">
                                 <label for="newsletter1" class="visually-hidden">someone.example.com</label>
                                 <input id="newsletter1" type="text" class="form-control" placeholder="Email address">

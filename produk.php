@@ -2,6 +2,7 @@
 error_reporting(0);
 include 'db.php';
 $kontak = mysqli_query($conn, "SELECT admin_telp, admin_email, admin_addres FROM  db_admin WHERE admin_id = 1");
+$produk = mysqli_query($conn, "SELECT * FROM dp_category WHERE category_id = '".$_GET['id']."' ");
 $a = mysqli_fetch_object($kontak);
 ?>
 
@@ -75,6 +76,7 @@ $a = mysqli_fetch_object($kontak);
         <div class="section">
             <div class="container">
                 <div class="box">
+                
                     <?php
                     if ($_GET['search'] != '' || $_GET['kat'] != '') {
                         $where = "AND product_name LIKE '%" . $_GET['search'] . "%' AND category_id LIKE '%" . $_GET['kat'] . "%' ";
@@ -92,14 +94,13 @@ $a = mysqli_fetch_object($kontak);
                             </a>
                         <?php }
                     } else { ?>
-                        <p>Produk tidak Ada</p>
+                        <p>Menu ini tidak tersedia</p>
                     <?php } ?>
                 </div>
             </div>
         </div>
-
-        <!-------------------footer -------------------->
-        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+ <!-------------------footer -------------------->
+ <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
             <symbol id="bootstrap" viewBox="0 0 118 94">
                 <title>Bootstrap</title>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
@@ -125,7 +126,7 @@ $a = mysqli_fetch_object($kontak);
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Cara Pengembalian</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Produk Indeks</a></li>
-                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Konfirmasi Transfer</a></li>
+                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Panduan COD</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Hubungi Kami</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Status Order</a></li>
                         </ul>
@@ -135,7 +136,7 @@ $a = mysqli_fetch_object($kontak);
                         <h5>BANTUAN</h5>
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Panduan Pembayaran</a></li>
-                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">STYLON Point</a></li>
+                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">SAFOOD Point</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Cash & Delivery</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">FAQs</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Size Guide</a></li>
@@ -145,7 +146,7 @@ $a = mysqli_fetch_object($kontak);
                     <div class="col-2">
                         <h5>TENTANG KAMI</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Tentang Stylon.com</a></li>
+                            <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Tentang Safood.com</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Pers/media</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Kebijakan</a></li>
                             <li class="nav-item mb-2"><a href="footer.php" class="nav-link p-0 text-muted">Syarat & Ketentuan</a></li>
@@ -155,7 +156,7 @@ $a = mysqli_fetch_object($kontak);
 
                     <div class="col-4 offset-1">
                         <form>
-                            <h5>Dapatkan berita fashion dan peluncuran brand terbaru hanya dengan berlangganan newsletter kami.</h5>
+                            <h5>Dapatkan harga spesial dan menu terbaru hanya dengan berlangganan newsletter kami.</h5>
                             <div class="d-flex w-100 gap-2">
                                 <label for="newsletter1" class="visually-hidden">someone.example.com</label>
                                 <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
@@ -186,3 +187,5 @@ $a = mysqli_fetch_object($kontak);
 </body>
 
 </html>DoubleLinkedList
+</body>
+</html>

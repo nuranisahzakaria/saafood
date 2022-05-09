@@ -55,6 +55,23 @@ h7{
 	line-height: 80px;
 	color: #6E3CBC;
 }
+h11{
+	font-family: 'Ribeye', cursive, arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	line-height: 80px;
+	color: #6E3CBC;
+	margin-top: 400px;
+}
+h12{
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, 'Lucida Sans Regular', ;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 80px;
+	color: #6E3CBC;
+}
 .linkatas{
 	padding-top: 50px;
 }
@@ -71,6 +88,10 @@ h7{
 	font-weight: bold;
 	text-align: center;
 	line-height: 40px;
+}
+
+.loginnn{
+	margin-left: 650px;
 }
 .kotaka:hover{
 	width: 180px;
@@ -111,9 +132,33 @@ h7{
 	padding: 0;
 	margin: 0;
 }
-
+.jam{
+	background-color: #6E3CBC;
+	color: #fff;
+	table-layout: fixed;
+	border-color: #6E3CBC;
+}
+.tabeljam .p{
+	font-size: 20px;
+	margin-left: 120px;
+	margin-top: 30px;
+	font-family: 'Oswald', sans-serif;
+	color: #6E3CBC;
+}
+.tabeljam{
+	border-color: #6E3CBC;
+}
+.jam th{
+	width: 40px;
+	height: 20px;
+	font-size: 12px;
+	padding-right: 7px;
+	background-color: #6E3CBC;
+}
+.tabeljam tbody{
+	font-size: 11px;
+}
 .link-resto{
-	margin-top: 70px;
 	margin-left: 80px;
 	margin-right: 80px;
 	background-color: #d8d3e0;
@@ -121,7 +166,7 @@ h7{
 	font-size: 21px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	position: relative;
-	color: #ffffff;
+	color: #0f0c0c;
 	text-decoration: none;
 }
 .link-resto h8{
@@ -151,7 +196,11 @@ h7{
 .tambahs{
 	background-color: #6E3CBC;
 }
-
+.none{
+	text-decoration: none;
+	color: inherit;
+	margin: 10px 23px 0 23px;
+}
 a{
 	color: inherit;
 	text-decoration: none

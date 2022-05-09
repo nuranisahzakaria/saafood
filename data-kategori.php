@@ -23,8 +23,8 @@
 			<div class="container">
 			
 			<li><a href="keluar.php" onClick="return confirm('Keluar dari Halaman Admin')">Keluar</a></li>
-			<li><a href="data-produk.php">Data Produk</a></li>
-			<li><a href="data-kategori.php">Data Kategori</a></li>
+			<li><a href="data-produk.php">Data Makanan</a></li>
+			<li><a href="data-kategori.php">Data Restoran</a></li>
 			<li><a href="profil.php">Profil</a></li>
 			<li><a href="dashboard.php">Dashboard</a></li>
 			</div>
@@ -34,18 +34,18 @@
 <!-- content-->
 		<div class="section">
 			<div class="container">
-				<h3 class="judul1">Data Kategori</h3>
+				<h3 class="judul1">Data Restoran</h3>
 				<div class="box">
 					<p>
 						<div class="buton-tambah">
-							<a href="tambah-kategori.php">Tambah Kategori</a>
+							<a href="tambah-kategori.php">Tambah Restoran</a>
 						</div>
 					</p>
 					<table border="1" cellspacing="0" class="table">
 						<thead>
 						<tr>
 							<th width="60px">No</th>
-							<th>Kategori</th>
+							<th>Restoran</th>
 							<th width="150px">Aksi</th>
 						</tr>
 						</thead>
@@ -77,7 +77,7 @@
 <!-- footer-->
 <footer>
 	<div class="container">
-		<small>Copyright &copy; 2021 - Stylon.com, By Nur Anisah</small>
+		<small>Copyright &copy; 2021 - Safood.com, By Nur Anisah</small>
 	</div>
 </footer>
 </body>

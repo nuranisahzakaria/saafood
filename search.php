@@ -39,9 +39,11 @@
                 font-size: 3.5rem;
             }
         }
-		.cari{
-			padding-top: 90px;
+		h7{
+			margin-left: 150px;
+			font-weight: bold;
 		}
+
     </style>
 
 
@@ -62,13 +64,14 @@
             </ul>
         </div>
     </header>
-	
+	<br><br><br><br>
+	<h7>Cari Menu</h7>
 <!--search-->
 <div class="cari">
 	<div class="search">
 		<div class="container">
 			<form action="produk.php">
-				<input type="text" name="search" placeholder="Cari Produk">
+				<input type="text" name="search" placeholder="Mau makan apa hari ini?">
 				<input type="hidden" name="kat" value="<?php echo $_GET['kat'] ?>">
 				<input type="submit" name="cari" value="Cari" class="tambahs">
 			</form>

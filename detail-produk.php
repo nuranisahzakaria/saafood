@@ -37,7 +37,7 @@
 <div class="detailatas">
 	<div class="section">
 		<div class="container">
-			<h7>Detail Produk</h7>
+			<h7>Detail Makanan</h7>
 			<div class="box">
 				<div class="coldua">
 					<img src="produk/<?php echo $p->product_images ?>" width="95%">
@@ -47,8 +47,33 @@
 					<h3><?php echo $p->product_name ?></h3>
 					<h4 class="harga">Rp. <?php echo number_format($p->product_price); ?></h4>
 					<p><?php echo $p->product_description; ?></p>
-					<div class="pemesanan">
-						<a href="https://api.whatsapp.com/send?phone=<?php echo $a->admin_telp ?>&text-Halo admin, saya mau pesan dengan produk ini min." target="_blank"><span class="order-1">PESAN</span></a>
+
+						<div class="tabeljam">
+							<p class="p">Jam Operasional</p>
+							<table>
+								<thead class="jam">
+									<th>Minggu</th>
+									<th>Senin</th>
+									<th>Selasa</th>
+									<th>Rabu</th>
+									<th>Kamis</th>
+									<th>Jumat</th>
+									<th>Sabtu</th>
+								</thead>
+								<tbody>
+									<td> 10:00-22:00 </td>
+									<td> 10:00-22:00 </td>
+									<td> 10:00-22:00 </td>
+									<td> 10:00-22:00 </td>
+									<td> 10:00-22:00 </td>
+									<td> 10:00-22:00 </td>
+									<td> 10:00-22:00 </td>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="pemesanan">
+							<a href="pesan.php?id=<?php echo $p->product_id ?>"><span class="order-1">PESAN</span></a>
 
 					</div>
 				</div>
@@ -61,7 +86,7 @@
     <div class="footerdetail">
         <footer>
             <div class="container">
-                <small>Copyright &copy; 2021 - Stylon.com, By Nur Anisah</small>
+                <small>Copyright &copy; 2021 - Safood.com, By Nur Anisah</small>
             </div>
         </footer>
         <script>

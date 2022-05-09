@@ -27,7 +27,7 @@
 			
 			<li><a href="keluar.php" onClick="return confirm('Keluar dari Halaman Admin')">Keluar</a></li>
 			<li><a href="data-produk.php">Data Produk</a></li>
-			<li><a href="data-kategori.php">Data Kategori</a></li>
+			<li><a href="data-kategori.php">Data Restoran</a></li>
 			<li><a href="profil.php">Profil</a></li>
 			<li><a href="dashboard.php">Dashboard</a></li>
 			</div>
@@ -109,7 +109,7 @@
 <!-- footer-->
 <footer>
 	<div class="container">
-		<small>Copyright &copy; 2021 - Stylon.com, By Nur Anisah</small>
+		<small>Copyright &copy; 2021 - Safood.com, By Nur Anisah</small>
 	</div>
 </footer>
 </body>

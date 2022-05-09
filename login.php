@@ -36,7 +36,7 @@
 					echo '<script>alert("Username atau password anda salah!")</script>';
 				}
 			}
-		 ?>
+		?>
 	</div>
 </body>
 </html>

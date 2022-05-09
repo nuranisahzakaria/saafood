@@ -24,8 +24,8 @@
 			<div class="container">
 			
 			<li><a href="keluar.php" onClick="return confirm('Keluar dari Halaman Admin')">Keluar</a></li>
-			<li><a href="data-produk.php">Data Produk</a></li>
-			<li><a href="data-kategori.php">Data Kategori</a></li>
+			<li><a href="data-produk.php">Data Makanan</a></li>
+			<li><a href="data-kategori.php">Data Restoran</a></li>
 			<li><a href="profil.php">Profil</a></li>
 			<li><a href="dashboard.php">Dashboard</a></li>
 			</div>
@@ -35,7 +35,7 @@
 <!-- content-->
 		<div class="section">
 			<div class="container">
-				<h3>Tambah Produk</h3>
+				<h3>Tambah Makanan</h3>
 				<div class="box">
 					<form action="" method="POST" enctype="multipart/form-data">
 						<select  class="input-control" name="kategori" required>
@@ -48,12 +48,12 @@
 						<?php } ?>
 						</select>
 
-						<input type="text" name="nama" class="input-control" placeholder="Nama Produk" required>
+						<input type="text" name="nama" class="input-control" placeholder="Nama Menu" required>
 						<input type="text" name="harga" class="input-control" placeholder="Harga" required>
 						<input type="file" name="gambar" class="input-control" required>
 						<textarea class="input-control" name="deskripsi" placeholder="Deskripsi"></textarea><br>
 						<select class="input-control" name="status">
-							<option value="">Status Produk</option>
+							<option value="">Status Makanan</option>
 							<option value="1">Tersedia</option>
 							<option value="0">Tidak Tersedia</option>
 						</select>
@@ -115,7 +115,7 @@
 <!-- footer-->
 <footer>
 	<div class="container">
-		<small>Copyright &copy; 2021 - Stylon.com, By Nur Anisah</small>
+		<small>Copyright &copy; 2021 - Safood.com, By Nur Anisah</small>
 	</div>
 </footer>
 <script>
